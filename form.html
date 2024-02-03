@@ -1,0 +1,70 @@
+<html>
+    <head><Title>Form validation</Title>
+    <body>
+        <meta name="author" content="Bhavadharani">
+        <meta property="og:title" content="form validation">
+        <meta charset="utf-8">
+        <meta name="description" content="form validation">
+        <meta name="viewport" content="width=device-width initial-scale=1.0"> 
+        <div style="padding: 50px; background-color: rgb(180, 165, 225); border: 2px solid rgb(95, 84, 129); border-radius: 10px;" >
+            <h1 align="center"><b>Form validation</b></h1>
+        </div>
+        <style>
+            fieldset{
+                border: 2px solid rgb(95, 84, 129);
+                margin-bottom: 10px;
+            }
+        </style>
+        <fieldset>
+                <legend>Info</legend>
+                <input type="image" name="photo" height="100" width="100" value="Upload your passport size photo" align="right"></image>
+                <label>First Name: <input type="text" name="firstname" required></label>
+                <br><br>
+                <label>Last Name: <input type="text" name="lastname"></label>
+                <br><br>
+                <label>D.O.B: <input type="date" name="date"></label>
+                <br><br>
+                <label>Gender: <input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female </label>
+                <br><br>
+                <label>Height(in cm): <input type="number" size="6" name="height" min="30" max="220"></label><br><br>
+                <label>Weight(in kg): <input type="number" size="6" name="weight" min="10" max="120"></label><br><br>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username">
+                <br><br>
+                <label for="password">Password: </label>
+                <input type="password" name="p/wd" id="password">
+                <br><br>
+                <label>Education Qualification: <select name="qualification">
+                    <option value="-Select one-">-Select one-</option>
+                    <option value="BE">BE</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BA">BA</option>
+                    <option value="others">Others</option>
+                </select> </label><br><br>
+                <label>Mention qualification if choosen others <input type="text" name="other" </label><br><br>
+                <label>Father's Name: <input type="text" name="father's name"></label><br><br>
+                <label>Mother's Name: <input type="text" name="mother's name"></label><br><br>
+                <label>Blood Group: <input type="text" name="bg"> </label><br><br>
+                <label>Mobile No: <input type="tel" name="mobileno" placeholder="9876543210" ></label><br><br>
+                <label>E-Mail id: <input type="email" name="emailid" placeholder="format@gmail.com" ></label><br><br>
+                <label>Address: <textarea rows="3" col="30"></textarea> </label><br><br>
+                <label>Github url: <input type="url"></label><br><br>
+                <label>Languages known: </label>
+                <label for="english">English</label>
+                <input type="checkbox" name="language" id="english">
+                <label for="tamil">Tamil</label>
+                <input type="checkbox" name="language" id="tamil">
+                <label>Others: </label>
+                <input type="text" name="language"><br><br>
+                <label>Skill Proficiency: <input type="range" min="1" max="10" value="5"></label><br><br>
+                <label for="file-select">Upload(Resume): </label>
+                <input type="file" name="upload" id="file-select">
+        </fieldset>
+        <input type="submit" name="Submit" align="center">
+        <input type="reset" name="Reset" align="center"><br>
+        <A href="file:///C:/Users/manob/OneDrive/Documents/WEB/resume.html">Sample Resume</A><br><br>
+        <iframe src="https://www.onlinegdb.com/online_html_compiler" align="left" width="50%" height="80%"></iframe>
+        <iframe src="https://www.onlinegdb.com/online_sqlite_editor" align="right" width="49%" height="80%"></iframe>
+    </body>
+</html>
