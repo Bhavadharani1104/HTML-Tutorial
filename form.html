@@ -61,10 +61,18 @@
                 <label for="file-select">Upload(Resume): </label>
                 <input type="file" name="upload" id="file-select">
         </fieldset>
-        <input type="submit" name="Submit" align="center">
-        <input type="reset" name="Reset" align="center"><br>
+        <button type="button" onclick="submitform()">Submit</button> 
+        <button type="button" onclick="resetform()">Reset</button><br><br>
         <A href="file:///C:/Users/manob/OneDrive/Documents/WEB/resume.html">Sample Resume</A><br><br>
         <iframe src="https://www.onlinegdb.com/online_html_compiler" align="left" width="50%" height="80%"></iframe>
         <iframe src="https://www.onlinegdb.com/online_sqlite_editor" align="right" width="49%" height="80%"></iframe>
+        <script>
+            function submitform(){
+                alert("form submitted successfully");
+            }
+            function resetform(){
+                location.reload();
+            }
+        </script>
     </body>
 </html>
